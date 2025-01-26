@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<!-- saved from url=(0087)https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Exercise 5: Working with Amazon Lex</title>
+  <script src="./Exercise 5_ Working with Amazon Lex_files/clipboard.min.js.download"></script>
+  <script src="./Exercise 5_ Working with Amazon Lex_files/copybutton.js.download"></script>
+
+<style>
+    html, body {
+        font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+        margin: 1em;
+    }
+
+    img:not(.clipboard){
+        max-width: 100%;
+        height: auto;
+        width: auto;
+    }
+
+    /* Copy buttons */
+    button.copybtn {
+        webkit-transition: opacity .3s ease-in-out;
+        -o-transition: opacity .3s ease-in-out;
+        transition: opacity .3s ease-in-out;
+        opacity: 0;
+        padding: 2px 6px;
+        position: absolute;
+        right: 4px;
+        top: 4px;
+    }
+    div.sourceCode:hover .copybtn, div.sourceCode .copybtn:focus {
+        opacity: .3;
+    }
+    div.sourceCode .copybtn:hover {
+        opacity: 1;
+    }
+    div.sourceCode {
+        position: relative;
+    }
+    .xmodule_display.xmodule_HtmlBlock ol {
+        padding: 0 0 0 2em !important;
+    }
+    .xmodule_display.xmodule_HtmlBlock ul {
+        padding: 0 0 0 2em !important;
+    }
+
+    code {
+        padding: 2px 4px !important;
+        background-color: #eee !important;
+        border-radius: 4px;
+    }
+    pre code {
+        padding: 9.5px !important;
+        background-color: #f5f5f5 !important;
+        display: block;
+        overflow-x: auto;
+        margin: 0 0 10px;
+        font-size: 13px;
+        line-height: 1.42857143;
+        word-break: break-all;
+        word-wrap: break-word;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        white-space: pre;
+    }
+    pre code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    pre code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    pre code span.at { color: #7d9029; } /* Attribute */
+    pre code span.bn { color: #40a070; } /* BaseN */
+    pre code span.bu { color: #06287e; } /* BuiltIn */
+    pre code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    pre code span.ch { color: #4070a0; } /* Char */
+    pre code span.cn { color: #880000; } /* Constant */
+    pre code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    pre code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    pre code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    pre code span.dt { color: #902000; } /* DataType */
+    pre code span.dv { color: #40a070; } /* DecVal */
+    pre code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    pre code span.ex { color: #06287e; } /* Extension */
+    pre code span.fl { color: #40a070; } /* Float */
+    pre code span.fu { color: #06287e; } /* Function */
+    pre code span.im { } /* Import */
+    pre code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    pre code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    pre code span.op { color: #666666; } /* Operator */
+    pre code span.ot { color: #007020; } /* Other */
+    pre code span.pp { color: #bc7a00; } /* Preprocessor */
+    pre code span.sc { color: #4070a0; } /* SpecialChar */
+    pre code span.ss { color: #bb6688; } /* SpecialString */
+    pre code span.st { color: #4070a0; } /* String */
+    pre code span.va { color: #19177c; } /* Variable */
+    pre code span.vs { color: #4070a0; } /* VerbatimString */
+    pre code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+</head><body>
+<p><em>[version_1.0]</em></p>
+<div style="background-color: #FFD2D2; padding: 15px; margin-bottom: 25px">
+<h3>
+<span class="fa fa-info-circle"></span> Note
+</h3>
+<p>The exercises in this course will have an associated charge in your
+AWS account. In this exercise, you will use the following resources:</p>
+<ul>
+<li>Amazon Lex text requests</li>
+<li>AWS Lambda function</li>
+</ul>
+<p><strong>The exercise includes instructions to delete all the
+resources that you create.</strong></p>
+<p>Familiarize yourself with <strong><a href="https://aws.amazon.com/lex/pricing/" target="_blank">Amazon Lex
+pricing</a></strong>, <strong><a href="https://aws.amazon.com/lambda/pricing/" target="_blank">AWS Lambda
+Pricing</a></strong>, and the <strong><a href="https://aws.amazon.com/free/" target="_blank">AWS Free
+Tier</a></strong>.</p>
+</div>
+<h1 id="exercise-5-working-with-amazon-lex">Exercise 5: Working with
+Amazon Lex</h1>
+<p>In this exercise, you will create a simple Amazon Lex chatbot that
+uses a Lambda function for fulfillment.</p>
+<h2 id="task-1-creating-an-amazon-lex-chatbot">Task 1: Creating an
+Amazon Lex chatbot</h2>
+<p>In this task, you create an Amazon Lex chatbot that’s called
+<em>CustomerService</em>.</p>
+<ol type="1">
+<li><p>In the AWS Management Console, search for and open <strong>Amazon
+Lex</strong>.</p></li>
+<li><p>Choose <strong>Create bot</strong> and enter the following
+values:</p>
+<ul>
+<li><strong>Bot name</strong>: <code>CustomerService</code></li>
+<li><strong>Runtime role</strong>: <em>Create a role with basic Amazon
+Lex permissions</em></li>
+<li><strong>Children’s Online Privacy Protection Act (COPPA)</strong>:
+<em>No</em></li>
+</ul></li>
+<li><p>Choose <strong>Next</strong>.</p></li>
+<li><p>On the <strong>Add language to bot</strong> screen, keep the
+default settings and choose <strong>Done</strong>.</p></li>
+</ol>
+<h2 id="task-2-creating-a-slot-type">Task 2: Creating a slot type</h2>
+<p>In this task, you create a single slot type that’s called
+<em>StoreLocation</em>. In a following task, you will refer to this slot
+type when you create an intent.</p>
+<ol type="1">
+<li><p>At the top of the navigation pane, exit the intent editor by
+choosing <strong>Back to intents list</strong>.</p>
+<p>You won’t use the sample <em>NewIntent</em> that is created on this
+screen.</p></li>
+<li><p>When you are prompted to leave without saving, choose
+<strong>Leave</strong>.</p></li>
+<li><p>In the navigation pane, choose <strong>Slot
+types</strong>.</p></li>
+<li><p>Choose <strong>Add slot type</strong>, <strong>Add blank slot
+type</strong>.</p></li>
+<li><p>For <strong>Slot type name</strong>, enter
+<code>StoreLocation</code> and then choose
+<strong>Add</strong>.</p></li>
+<li><p>In the <strong>Slot value resolution</strong> section, select
+<strong>Restrict to slot values</strong>.</p>
+<p>Restricting to slot values will restrict the options to a small list
+of store locations.</p></li>
+<li><p>Add three values to the <code>StoreLocation</code> slot type:</p>
+<ul>
+<li><code>Redmond</code></li>
+<li><code>Seattle</code></li>
+<li><code>Kirkland</code></li>
+</ul></li>
+<li><p>Choose <strong>Save Slot type</strong>.</p></li>
+</ol>
+<h2 id="task-3-creating-an-intent">Task 3: Creating an intent</h2>
+<p>In this task, you create an intent called <em>Store Hours</em>. An
+<em>intent</em> is a particular goal that a user wants to achieve. This
+bot will respond to a request about store opening hours. To complete
+this conversation, you need to know the store location and date that the
+customer is asking about.</p>
+<ol type="1">
+<li><p>In the navigation pane, choose <strong>&lt; Slot Types</strong>
+and then choose <strong>Intents</strong>.</p></li>
+<li><p>Choose <strong>Add intent</strong>, <strong>Add empty
+intent</strong>.</p></li>
+<li><p>For <strong>Intent name</strong>, enter <code>StoreHours</code>
+and then choose <strong>Add</strong>.</p></li>
+<li><p>In the <strong>Sample utterances</strong> section, choose
+<strong>Plain Text</strong> and paste the following utterances.</p>
+<pre><code>What time do you open
+What time do you open on {Date}
+What time does the {StoreLocation} store open
+What time does the {StoreLocation} store open {Date}</code></pre></li>
+<li><p>In the <strong>Slots</strong> section, choose <strong>Add
+slot</strong>, enter the following values, and then choose
+<strong>Add</strong>.</p>
+<ul>
+<li><strong>Name</strong>: <code>Date</code></li>
+<li><strong>Slot type</strong>: <em>AMAZON.Date</em></li>
+<li><strong>Prompts</strong>: <code>Which day?</code></li>
+</ul></li>
+<li><p>Create a second slot by choosing <strong>Add slot</strong>,
+entering the following values, and choosing <strong>Add</strong>.</p>
+<ul>
+<li><strong>Name</strong>: <code>StoreLocation</code></li>
+<li><strong>Slot type</strong>: <em>StoreLocation</em></li>
+<li><strong>Prompts</strong>: <code>Which location?</code>, then choose
+<strong>Add</strong>.</li>
+</ul></li>
+<li><p>Scroll to the <strong>Fulfillment</strong> section and turn on
+<strong>Active</strong>.</p></li>
+<li><p>Choose <strong>Save intent</strong>.</p></li>
+</ol>
+<h2 id="task-4-creating-the-fulfillment-lambda-function">Task 4:
+Creating the Fulfillment Lambda function</h2>
+<p>In this task, you will create a Lambda function to fulfill the
+intent. For the StoreHours intent, you need some code to respond with
+the store opening time for a location and date.</p>
+<ol type="1">
+<li><p>In the console navigation bar search box, search for and open
+<strong>Lambda</strong>.</p></li>
+<li><p>Choose <strong>Create Function</strong> and enter the following
+settings.</p>
+<ul>
+<li><strong>Function name</strong>: <code>LexFunction</code></li>
+<li><strong>Runtime</strong>: <em>Python 3.9</em></li>
+</ul></li>
+<li><p>Choose <strong>Create Function</strong>.</p></li>
+<li><p>In the <strong>Code source</strong> section, replace the contents
+of <code>lambda_function.py</code> with the following code.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python" id="codeblock0"><code class="sourceCode python"><span id="cb2-1"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">"Lambda function for Lex CustomerService bot"</span></span>
+<span id="cb2-2"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> datetime</span>
+<span id="cb2-3"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># The 'database' of opening hours by day</span></span>
+<span id="cb2-5"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-5" aria-hidden="true" tabindex="-1"></a>OPENING_HOURS <span class="op">=</span> {</span>
+<span id="cb2-6"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">'kirkland'</span> : [ <span class="st">'9 am'</span>, <span class="st">'9 am'</span>, <span class="st">'9 am'</span>, <span class="st">'9 am'</span>, <span class="st">'9 am'</span>, <span class="st">'10 am'</span>,  <span class="st">'10 am'</span>],</span>
+<span id="cb2-7"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">'seattle'</span> : [  <span class="st">'8 am'</span>, <span class="st">'8 am'</span>, <span class="st">'8 am'</span>, <span class="st">'8 am'</span>, <span class="st">'9 am'</span>, <span class="st">'12 midday'</span>, <span class="st">'12 midday'</span> ],</span>
+<span id="cb2-8"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">'redmond'</span> : [ <span class="st">'9 am'</span>, <span class="st">'9 am'</span>, <span class="st">'9 am'</span>, <span class="st">'9 am'</span>, <span class="st">'9 am'</span>, <span class="st">'9 am'</span>, <span class="st">'9 am'</span> ]</span>
+<span id="cb2-9"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-9" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb2-10"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> lambda_handler(event, _):</span>
+<span id="cb2-12"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-12" aria-hidden="true" tabindex="-1"></a>    <span class="co">"Create a response for the opening hours intent"</span></span>
+<span id="cb2-13"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-13" aria-hidden="true" tabindex="-1"></a>    message <span class="op">=</span> <span class="st">"There was an issue completing your request"</span></span>
+<span id="cb2-14"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-15"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="st">"StoreLocation"</span> <span class="kw">in</span> event[<span class="st">"sessionState"</span>][<span class="st">"intent"</span>][<span class="st">"slots"</span>] <span class="kw">and</span></span>
+<span id="cb2-16"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-16" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Date"</span> <span class="kw">in</span> event[<span class="st">"sessionState"</span>][<span class="st">"intent"</span>][<span class="st">"slots"</span>]):</span>
+<span id="cb2-17"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-17" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"got the location and dates"</span>)</span>
+<span id="cb2-18"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-18" aria-hidden="true" tabindex="-1"></a>        date_slot <span class="op">=</span> event[<span class="st">"sessionState"</span>][<span class="st">"intent"</span>][<span class="st">"slots"</span>][<span class="st">"Date"</span>][<span class="st">"value"</span>][<span class="st">"interpretedValue"</span>]</span>
+<span id="cb2-19"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-19" aria-hidden="true" tabindex="-1"></a>        location_slot <span class="op">=</span> event[<span class="st">"sessionState"</span>][<span class="st">"intent"</span>][<span class="st">"slots"</span>][<span class="st">"StoreLocation"</span>][<span class="st">"value"</span>][<span class="st">"interpretedValue"</span>]</span>
+<span id="cb2-20"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-20" aria-hidden="true" tabindex="-1"></a>        date <span class="op">=</span> datetime.datetime.strptime(date_slot,<span class="st">"%Y-%m-</span><span class="sc">%d</span><span class="st">"</span>)</span>
+<span id="cb2-21"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-21" aria-hidden="true" tabindex="-1"></a>        opening_time <span class="op">=</span> OPENING_HOURS[location_slot.lower()][date.weekday()]</span>
+<span id="cb2-22"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-22" aria-hidden="true" tabindex="-1"></a>        message <span class="op">=</span> <span class="ss">f"The </span><span class="sc">{</span>location_slot<span class="sc">}</span><span class="ss"> store opens </span><span class="sc">{</span>opening_time<span class="sc">}</span><span class="ss">"</span></span>
+<span id="cb2-23"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-24"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-24" aria-hidden="true" tabindex="-1"></a>    session_attributes <span class="op">=</span> event[<span class="st">'sessionState'</span>][<span class="st">'sessionAttributes'</span>] <span class="cf">if</span> <span class="st">'sessionAttributes'</span> <span class="kw">in</span> event[<span class="st">'sessionState'</span>] <span class="cf">else</span> {}</span>
+<span id="cb2-25"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-25" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> {</span>
+<span id="cb2-26"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-26" aria-hidden="true" tabindex="-1"></a>        <span class="st">'sessionState'</span>: {</span>
+<span id="cb2-27"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-27" aria-hidden="true" tabindex="-1"></a>            <span class="st">'sessionAttributes'</span>: session_attributes,</span>
+<span id="cb2-28"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-28" aria-hidden="true" tabindex="-1"></a>            <span class="st">'dialogAction'</span>: {</span>
+<span id="cb2-29"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-29" aria-hidden="true" tabindex="-1"></a>                <span class="st">'type'</span>: <span class="st">'Close'</span></span>
+<span id="cb2-30"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-30" aria-hidden="true" tabindex="-1"></a>            },</span>
+<span id="cb2-31"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-31" aria-hidden="true" tabindex="-1"></a>            <span class="st">'intent'</span>: event[<span class="st">'sessionState'</span>][<span class="st">'intent'</span>]</span>
+<span id="cb2-32"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-32" aria-hidden="true" tabindex="-1"></a>        },</span>
+<span id="cb2-33"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-33" aria-hidden="true" tabindex="-1"></a>        <span class="st">'messages'</span>: [{</span>
+<span id="cb2-34"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-34" aria-hidden="true" tabindex="-1"></a>            <span class="st">'contentType'</span>: <span class="st">'PlainText'</span>,</span>
+<span id="cb2-35"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-35" aria-hidden="true" tabindex="-1"></a>            <span class="st">'content'</span>: message</span>
+<span id="cb2-36"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-36" aria-hidden="true" tabindex="-1"></a>        }],</span>
+<span id="cb2-37"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-37" aria-hidden="true" tabindex="-1"></a>        <span class="st">'sessionId'</span>: event[<span class="st">'sessionId'</span>],</span>
+<span id="cb2-38"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-38" aria-hidden="true" tabindex="-1"></a>        <span class="st">'requestAttributes'</span>: event[<span class="st">'requestAttributes'</span>] <span class="cf">if</span> <span class="st">'requestAttributes'</span> <span class="kw">in</span> event <span class="cf">else</span> <span class="va">None</span></span>
+<span id="cb2-39"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-39" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb2-40"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-40" aria-hidden="true" tabindex="-1"></a>    result[<span class="st">'sessionState'</span>][<span class="st">'intent'</span>][<span class="st">'state'</span>] <span class="op">=</span> <span class="st">'Fulfilled'</span></span>
+<span id="cb2-41"><a href="https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/exercise-5.html#cb2-41" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> result</span></code></pre><button class="btn copybtn" data-clipboard-target="#codeblock0"><img class="clipboard" src="./Exercise 5_ Working with Amazon Lex_files/clipboard.svg" width="13" alt="Copy to clipboard"></button></div></li>
+<li><p>In the <strong>Code source</strong> menu bar, choose
+<strong>Deploy</strong>.</p></li>
+</ol>
+<h2 id="task-5-attaching-the-lambda-function-to-a-bot-alias">Task 5:
+Attaching the Lambda function to a bot alias</h2>
+<p>In this task, you attach the Lambda function to a bot alias.</p>
+<ol type="1">
+<li><p>Return to the Amazon Lex console.</p></li>
+<li><p>Choose the <strong>CustomerService</strong> bot.</p></li>
+<li><p>In the navigation pane, choose <strong>Aliases</strong>.</p></li>
+<li><p>Choose the <strong>TestBotAlias</strong> link.</p></li>
+<li><p>In the <strong>Languages</strong> section, choose the
+<strong>English (US)</strong> link.</p>
+<p>The <strong>Alias language support: English (US)</strong> page
+opens.</p></li>
+<li><p>On the <strong>Source</strong> menu, choose
+<strong>LexFunction</strong>.</p></li>
+<li><p>Choose <strong>Save</strong>.</p></li>
+</ol>
+<h2 id="task-6-building-and-testing-the-bot">Task 6: Building and
+testing the bot</h2>
+<p>In this task, you build and test your Amazon Lex bot.</p>
+<ol type="1">
+<li><p>In the navigation pane, under <strong>All languages</strong>,
+choose <strong>English (US)</strong>.</p></li>
+<li><p>Choose <strong>Build</strong>.</p></li>
+</ol>
+<p>The bot will take a few minutes to build.</p>
+<ol type="1">
+<li><p>When the bot is finished building, choose
+<strong>Test</strong>.</p>
+<p>You can now test conversations with the bot.</p></li>
+<li><p>Test the bot by entering text in the <strong>Type a
+message</strong> box.</p>
+<p>For example, try starting a conversation with each of the following
+utterances:</p>
+<ul>
+<li><code>When do you open?</code></li>
+<li><code>When do you open in Seattle?</code></li>
+<li><code>Are you open on Christmas Day?</code></li>
+<li><code>At what time does the Redmond store open this Wednesday?</code></li>
+</ul></li>
+</ol>
+<h2 id="task-7-cleaning-up">Task 7: Cleaning up</h2>
+<p>In this task, you delete the AWS resources that you created for this
+project.</p>
+<ol type="1">
+<li>Delete the Lambda function.</li>
+</ol>
+<ul>
+<li>Return to the AWS Lambda console.</li>
+<li>Delete the <strong>LexFunction</strong> function.</li>
+</ul>
+<ol type="1">
+<li>Delete the Amazon Lex bot.</li>
+</ol>
+<ul>
+<li>Return to the Amazon Lex console.</li>
+<li>Delete the <strong>CustomerService</strong> bot.</li>
+</ul>
+<script>
+document.body.innerHTML = document.body.innerHTML.replace(/https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-MachineLearning/(.+)/g, function (match, capture) {
+  let tmp = document.createElement("DIV");
+  tmp.innerHTML = capture;
+  return new URL(tmp.textContent || tmp.innerText || "", document.baseURI).href;
+});
+</script>
+
+
+</body></html>

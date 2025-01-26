@@ -1,0 +1,4471 @@
+[
+  {
+    "Filename": "photos\\pic1.jpeg",
+    "Labels": [
+      {
+        "Name": "Nature",
+        "Confidence": 99.9320297241211,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Outdoors",
+        "Confidence": 99.9320297241211,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Sky",
+        "Confidence": 99.9320297241211,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Cable",
+        "Confidence": 97.90098571777344,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Tools and Machinery"
+          }
+        ]
+      },
+      {
+        "Name": "Power Lines",
+        "Confidence": 86.3488540649414,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Cable"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Transport and Logistics"
+          }
+        ]
+      },
+      {
+        "Name": "Electric Transmission Tower",
+        "Confidence": 72.65895080566406,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Cable"
+          },
+          {
+            "Name": "Power Lines"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Animal",
+        "Confidence": 71.2934341430664,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Animals and Pets"
+          }
+        ]
+      },
+      {
+        "Name": "Bird",
+        "Confidence": 71.2934341430664,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.010495409369468689,
+              "Height": 0.018251433968544006,
+              "Left": 0.6453834772109985,
+              "Top": 0.42516040802001953
+            },
+            "Confidence": 71.2934341430664
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.009090320207178593,
+              "Height": 0.019335994496941566,
+              "Left": 0.7153343558311462,
+              "Top": 0.42326775193214417
+            },
+            "Confidence": 62.6231803894043
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Animal"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Animals and Pets"
+          }
+        ]
+      },
+      {
+        "Name": "Flock",
+        "Confidence": 68.19709777832031,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Animal"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Animals and Pets"
+          }
+        ]
+      },
+      {
+        "Name": "Azure Sky",
+        "Confidence": 57.51284408569336,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          },
+          {
+            "Name": "Sky"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Silhouette",
+        "Confidence": 55.44688034057617,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Colors and Visual Composition"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Filename": "photos\\pic10.jpeg",
+    "Labels": [
+      {
+        "Name": "Flower",
+        "Confidence": 99.99584197998047,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Plant"
+          }
+        ],
+        "Aliases": [
+          {
+            "Name": "Blossom"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Plants and Flowers"
+          }
+        ]
+      },
+      {
+        "Name": "Plant",
+        "Confidence": 99.99584197998047,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Plants and Flowers"
+          }
+        ]
+      },
+      {
+        "Name": "Petal",
+        "Confidence": 99.84725952148438,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Flower"
+          },
+          {
+            "Name": "Plant"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Plants and Flowers"
+          }
+        ]
+      },
+      {
+        "Name": "City",
+        "Confidence": 98.75785827636719,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [
+          {
+            "Name": "Town"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Tulip",
+        "Confidence": 97.7666015625,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Flower"
+          },
+          {
+            "Name": "Plant"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Plants and Flowers"
+          }
+        ]
+      },
+      {
+        "Name": "Urban",
+        "Confidence": 95.80433654785156,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Colors and Visual Composition"
+          }
+        ]
+      },
+      {
+        "Name": "Car",
+        "Confidence": 94.44780731201172,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.09491316974163055,
+              "Height": 0.0664438009262085,
+              "Left": 0.011770452372729778,
+              "Top": 0.41997334361076355
+            },
+            "Confidence": 94.44780731201172
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.06569675356149673,
+              "Height": 0.026758434250950813,
+              "Left": 0.10959029942750931,
+              "Top": 0.40833741426467896
+            },
+            "Confidence": 86.92770385742188
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.07592245936393738,
+              "Height": 0.0706389844417572,
+              "Left": 0.9231909513473511,
+              "Top": 0.42278245091438293
+            },
+            "Confidence": 85.60527801513672
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.014293153770267963,
+              "Height": 0.06792023032903671,
+              "Left": 0.000123919642646797,
+              "Top": 0.42536675930023193
+            },
+            "Confidence": 75.15887451171875
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Vehicle"
+          }
+        ],
+        "Aliases": [
+          {
+            "Name": "Automobile"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Transportation",
+        "Confidence": 94.44780731201172,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Vehicle",
+        "Confidence": 94.44780731201172,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Transportation"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Metropolis",
+        "Confidence": 92.40298461914062,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "City"
+          },
+          {
+            "Name": "Urban"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Grass",
+        "Confidence": 89.26316833496094,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Plant"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Plants and Flowers"
+          }
+        ]
+      },
+      {
+        "Name": "Outdoors",
+        "Confidence": 84.83064270019531,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Nature",
+        "Confidence": 80.50375366210938,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Park",
+        "Confidence": 80.50375366210938,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Grass"
+          },
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          },
+          {
+            "Name": "Plant"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Vegetation",
+        "Confidence": 80.4530258178711,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Plant"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Neighborhood",
+        "Confidence": 57.8072624206543,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Tree",
+        "Confidence": 57.3231201171875,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Plant"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Garden",
+        "Confidence": 56.4053955078125,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Spring",
+        "Confidence": 55.70045852661133,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Architecture",
+        "Confidence": 55.3213996887207,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Building",
+        "Confidence": 55.3213996887207,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Architecture"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Office Building",
+        "Confidence": 55.3213996887207,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Architecture"
+          },
+          {
+            "Name": "Building"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Filename": "photos\\pic11.jpeg",
+    "Labels": [
+      {
+        "Name": "Nature",
+        "Confidence": 99.74573516845703,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Night",
+        "Confidence": 99.74573516845703,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Outdoors",
+        "Confidence": 99.74573516845703,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Architecture",
+        "Confidence": 91.36042022705078,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Building",
+        "Confidence": 91.36042022705078,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Architecture"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Empire State Building",
+        "Confidence": 91.36042022705078,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Architecture"
+          },
+          {
+            "Name": "Building"
+          },
+          {
+            "Name": "Landmark"
+          },
+          {
+            "Name": "Tower"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Popular Landmarks"
+          }
+        ]
+      },
+      {
+        "Name": "Landmark",
+        "Confidence": 91.36042022705078,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Popular Landmarks"
+          }
+        ]
+      },
+      {
+        "Name": "Tower",
+        "Confidence": 91.36042022705078,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.1316978931427002,
+              "Height": 0.7662757039070129,
+              "Left": 0.4178919196128845,
+              "Top": 0.22708652913570404
+            },
+            "Confidence": 80.40165710449219
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Architecture"
+          },
+          {
+            "Name": "Building"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Astronomy",
+        "Confidence": 87.00794982910156,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Moon",
+        "Confidence": 87.00794982910156,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.05196148902177811,
+              "Height": 0.08187635987997055,
+              "Left": 0.4564940631389618,
+              "Top": 0.22584286332130432
+            },
+            "Confidence": 87.00794982910156
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Astronomy"
+          },
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Night"
+          },
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Filename": "photos\\pic12.jpeg",
+    "Labels": [
+      {
+        "Name": "Bench",
+        "Confidence": 99.99998474121094,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.9379280805587769,
+              "Height": 0.9809446930885315,
+              "Left": 0.049458470195531845,
+              "Top": 0.016013335436582565
+            },
+            "Confidence": 96.87171936035156
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Furniture"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Furniture and Furnishings"
+          }
+        ]
+      },
+      {
+        "Name": "Furniture",
+        "Confidence": 99.99998474121094,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Furniture and Furnishings"
+          }
+        ]
+      },
+      {
+        "Name": "Path",
+        "Confidence": 96.90375518798828,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Grass",
+        "Confidence": 85.68096160888672,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Plant"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Plants and Flowers"
+          }
+        ]
+      },
+      {
+        "Name": "Nature",
+        "Confidence": 85.68096160888672,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Outdoors",
+        "Confidence": 85.68096160888672,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Park",
+        "Confidence": 85.68096160888672,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Grass"
+          },
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          },
+          {
+            "Name": "Plant"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Plant",
+        "Confidence": 85.68096160888672,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Plants and Flowers"
+          }
+        ]
+      },
+      {
+        "Name": "Park Bench",
+        "Confidence": 79.08448028564453,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Bench"
+          },
+          {
+            "Name": "Furniture"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Home and Indoors"
+          }
+        ]
+      },
+      {
+        "Name": "City",
+        "Confidence": 57.63579177856445,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [
+          {
+            "Name": "Town"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Scenery",
+        "Confidence": 56.93172073364258,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Sidewalk",
+        "Confidence": 56.578575134277344,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Path"
+          }
+        ],
+        "Aliases": [
+          {
+            "Name": "Pavement"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Road",
+        "Confidence": 56.442081451416016,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Transport and Logistics"
+          }
+        ]
+      },
+      {
+        "Name": "Street",
+        "Confidence": 56.442081451416016,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "City"
+          },
+          {
+            "Name": "Road"
+          },
+          {
+            "Name": "Urban"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Urban",
+        "Confidence": 56.442081451416016,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Colors and Visual Composition"
+          }
+        ]
+      },
+      {
+        "Name": "Wood",
+        "Confidence": 55.3638801574707,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Materials"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Filename": "photos\\pic13.jpeg",
+    "Labels": [
+      {
+        "Name": "Rock",
+        "Confidence": 99.99930572509766,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Nature",
+        "Confidence": 99.99765014648438,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Outdoors",
+        "Confidence": 99.99765014648438,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Sea",
+        "Confidence": 99.99765014648438,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          },
+          {
+            "Name": "Water"
+          }
+        ],
+        "Aliases": [
+          {
+            "Name": "Ocean"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Water",
+        "Confidence": 99.99765014648438,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Cliff",
+        "Confidence": 99.98021697998047,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Cave",
+        "Confidence": 99.966552734375,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Coast",
+        "Confidence": 99.966552734375,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          },
+          {
+            "Name": "Sea"
+          },
+          {
+            "Name": "Shoreline"
+          },
+          {
+            "Name": "Water"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Cove",
+        "Confidence": 99.966552734375,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Cave"
+          },
+          {
+            "Name": "Coast"
+          },
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          },
+          {
+            "Name": "Sea"
+          },
+          {
+            "Name": "Shoreline"
+          },
+          {
+            "Name": "Water"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Shoreline",
+        "Confidence": 99.966552734375,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Water"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Beach",
+        "Confidence": 99.76397705078125,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Coast"
+          },
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          },
+          {
+            "Name": "Sea"
+          },
+          {
+            "Name": "Shoreline"
+          },
+          {
+            "Name": "Water"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Scenery",
+        "Confidence": 99.73580169677734,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Promontory",
+        "Confidence": 99.20071411132812,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          },
+          {
+            "Name": "Water"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Land",
+        "Confidence": 94.77589416503906,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Motorcycle",
+        "Confidence": 81.62269592285156,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.05385256186127663,
+              "Height": 0.042816612869501114,
+              "Left": 0.44432753324508667,
+              "Top": 0.7418805360794067
+            },
+            "Confidence": 81.62269592285156
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Vehicle"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Transportation",
+        "Confidence": 81.62269592285156,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Vehicle",
+        "Confidence": 81.62269592285156,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Transportation"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Landscape",
+        "Confidence": 72.90977478027344,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Sea Waves",
+        "Confidence": 57.72974395751953,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          },
+          {
+            "Name": "Sea"
+          },
+          {
+            "Name": "Water"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Lake",
+        "Confidence": 56.718719482421875,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          },
+          {
+            "Name": "Water"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Sky",
+        "Confidence": 56.71707534790039,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Lagoon",
+        "Confidence": 55.17911148071289,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Lake"
+          },
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          },
+          {
+            "Name": "Water"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Filename": "photos\\pic14.jpeg",
+    "Labels": [
+      {
+        "Name": "City",
+        "Confidence": 100.0,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [
+          {
+            "Name": "Town"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Metropolis",
+        "Confidence": 100.0,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "City"
+          },
+          {
+            "Name": "Urban"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Urban",
+        "Confidence": 100.0,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Colors and Visual Composition"
+          }
+        ]
+      },
+      {
+        "Name": "Road",
+        "Confidence": 99.99993133544922,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Transport and Logistics"
+          }
+        ]
+      },
+      {
+        "Name": "Street",
+        "Confidence": 99.99993133544922,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "City"
+          },
+          {
+            "Name": "Road"
+          },
+          {
+            "Name": "Urban"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Light",
+        "Confidence": 99.38662719726562,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Colors and Visual Composition"
+          }
+        ]
+      },
+      {
+        "Name": "Traffic Light",
+        "Confidence": 99.38662719726562,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.021335706114768982,
+              "Height": 0.05681312084197998,
+              "Left": 0.9119483232498169,
+              "Top": 0.5882492661476135
+            },
+            "Confidence": 99.38662719726562
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.014238070696592331,
+              "Height": 0.049030184745788574,
+              "Left": 0.8832672238349915,
+              "Top": 0.719835638999939
+            },
+            "Confidence": 98.24641418457031
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.01502418052405119,
+              "Height": 0.0571405291557312,
+              "Left": 0.41791367530822754,
+              "Top": 0.7112112045288086
+            },
+            "Confidence": 97.37725067138672
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.015834780409932137,
+              "Height": 0.051702141761779785,
+              "Left": 0.9313611388206482,
+              "Top": 0.5901258587837219
+            },
+            "Confidence": 93.32542419433594
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.012955879792571068,
+              "Height": 0.04667705297470093,
+              "Left": 0.6396198272705078,
+              "Top": 0.6227887868881226
+            },
+            "Confidence": 91.49932861328125
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.020245032384991646,
+              "Height": 0.02862793207168579,
+              "Left": 0.1363113522529602,
+              "Top": 0.7399014234542847
+            },
+            "Confidence": 82.14532470703125
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Light"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Transport and Logistics"
+          }
+        ]
+      },
+      {
+        "Name": "Architecture",
+        "Confidence": 98.78558349609375,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Building",
+        "Confidence": 98.78558349609375,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Architecture"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "High Rise",
+        "Confidence": 98.78558349609375,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Architecture"
+          },
+          {
+            "Name": "Building"
+          },
+          {
+            "Name": "City"
+          },
+          {
+            "Name": "Urban"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Intersection",
+        "Confidence": 95.39490509033203,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Road"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Cityscape",
+        "Confidence": 93.77173614501953,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Architecture"
+          },
+          {
+            "Name": "Building"
+          },
+          {
+            "Name": "Urban"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Car",
+        "Confidence": 90.13851928710938,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.03031845949590206,
+              "Height": 0.029092729091644287,
+              "Left": 0.5401571393013,
+              "Top": 0.8588148355484009
+            },
+            "Confidence": 90.13851928710938
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.028899317607283592,
+              "Height": 0.030252397060394287,
+              "Left": 0.512278139591217,
+              "Top": 0.856453001499176
+            },
+            "Confidence": 87.59513854980469
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.03621698170900345,
+              "Height": 0.03087979555130005,
+              "Left": 0.5464056134223938,
+              "Top": 0.8552851676940918
+            },
+            "Confidence": 64.21833801269531
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Vehicle"
+          }
+        ],
+        "Aliases": [
+          {
+            "Name": "Automobile"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Transportation",
+        "Confidence": 90.13851928710938,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Vehicle",
+        "Confidence": 90.13851928710938,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Transportation"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Neighborhood",
+        "Confidence": 87.31844329833984,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Plant",
+        "Confidence": 86.5263671875,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.03963794186711311,
+              "Height": 0.06106609106063843,
+              "Left": 0.004699749406427145,
+              "Top": 0.8512725830078125
+            },
+            "Confidence": 86.5263671875
+          }
+        ],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Plants and Flowers"
+          }
+        ]
+      },
+      {
+        "Name": "Office Building",
+        "Confidence": 83.06071472167969,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Architecture"
+          },
+          {
+            "Name": "Building"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Path",
+        "Confidence": 81.45933532714844,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Sidewalk",
+        "Confidence": 75.0813217163086,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Path"
+          }
+        ],
+        "Aliases": [
+          {
+            "Name": "Pavement"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Person",
+        "Confidence": 74.6747817993164,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.01732407510280609,
+              "Height": 0.06754761934280396,
+              "Left": 0.13521195948123932,
+              "Top": 0.8411757946014404
+            },
+            "Confidence": 74.6747817993164
+          }
+        ],
+        "Parents": [],
+        "Aliases": [
+          {
+            "Name": "Human"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Person Description"
+          }
+        ]
+      },
+      {
+        "Name": "Advertisement",
+        "Confidence": 66.89691162109375,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Text and Documents"
+          }
+        ]
+      },
+      {
+        "Name": "Road Sign",
+        "Confidence": 66.57209777832031,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.03140193969011307,
+              "Height": 0.04805058240890503,
+              "Left": 0.10702916234731674,
+              "Top": 0.7219961881637573
+            },
+            "Confidence": 66.57209777832031
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Sign"
+          },
+          {
+            "Name": "Symbol"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Transport and Logistics"
+          }
+        ]
+      },
+      {
+        "Name": "Sign",
+        "Confidence": 66.57209777832031,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Symbol"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Symbols and Flags"
+          }
+        ]
+      },
+      {
+        "Name": "Symbol",
+        "Confidence": 66.57209777832031,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Symbols and Flags"
+          }
+        ]
+      },
+      {
+        "Name": "Bus",
+        "Confidence": 64.98760986328125,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.026285676285624504,
+              "Height": 0.023722708225250244,
+              "Left": 0.2659143805503845,
+              "Top": 0.8482851982116699
+            },
+            "Confidence": 64.98760986328125
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Vehicle"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Alley",
+        "Confidence": 57.540130615234375,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "City"
+          },
+          {
+            "Name": "Road"
+          },
+          {
+            "Name": "Street"
+          },
+          {
+            "Name": "Urban"
+          }
+        ],
+        "Aliases": [
+          {
+            "Name": "Alleyway"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Freeway",
+        "Confidence": 57.064674377441406,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Road"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Transport and Logistics"
+          }
+        ]
+      },
+      {
+        "Name": "Downtown",
+        "Confidence": 56.87930679321289,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "City"
+          },
+          {
+            "Name": "Urban"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Tarmac",
+        "Confidence": 56.074703216552734,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Road"
+          }
+        ],
+        "Aliases": [
+          {
+            "Name": "Asphalt"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Transport and Logistics"
+          }
+        ]
+      },
+      {
+        "Name": "Nature",
+        "Confidence": 55.48573303222656,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Night",
+        "Confidence": 55.48573303222656,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Outdoors",
+        "Confidence": 55.48573303222656,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Highway",
+        "Confidence": 55.01093292236328,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Freeway"
+          },
+          {
+            "Name": "Road"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Transport and Logistics"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Filename": "photos\\pic15.jpeg",
+    "Labels": [
+      {
+        "Name": "Plant",
+        "Confidence": 100.0,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Plants and Flowers"
+          }
+        ]
+      },
+      {
+        "Name": "Tree",
+        "Confidence": 100.0,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Plant"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Maple",
+        "Confidence": 99.99996185302734,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Plant"
+          },
+          {
+            "Name": "Tree"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Plants and Flowers"
+          }
+        ]
+      },
+      {
+        "Name": "Leaf",
+        "Confidence": 99.99796295166016,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Plant"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Plants and Flowers"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Filename": "photos\\pic17.jpeg",
+    "Labels": [
+      {
+        "Name": "Fire",
+        "Confidence": 99.90178680419922,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Public Safety"
+          }
+        ]
+      },
+      {
+        "Name": "Flame",
+        "Confidence": 99.90178680419922,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Fire"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Public Safety"
+          }
+        ]
+      },
+      {
+        "Name": "Bonfire",
+        "Confidence": 94.80966186523438,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.3061172664165497,
+              "Height": 0.26961636543273926,
+              "Left": 0.6229411363601685,
+              "Top": 0.5329268574714661
+            },
+            "Confidence": 94.80966186523438
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Fire"
+          },
+          {
+            "Name": "Flame"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Travel and Adventure"
+          }
+        ]
+      },
+      {
+        "Name": "Outdoors",
+        "Confidence": 83.37019348144531,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Architecture",
+        "Confidence": 82.70134735107422,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Building",
+        "Confidence": 82.70134735107422,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Architecture"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Housing",
+        "Confidence": 82.70134735107422,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Architecture"
+          },
+          {
+            "Name": "Building"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Astronomy",
+        "Confidence": 72.71542358398438,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Moon",
+        "Confidence": 72.71542358398438,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.033906009048223495,
+              "Height": 0.04783206433057785,
+              "Left": 0.8833359479904175,
+              "Top": 0.2776215374469757
+            },
+            "Confidence": 72.71542358398438
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Astronomy"
+          },
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Night"
+          },
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Nature",
+        "Confidence": 72.71542358398438,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Night",
+        "Confidence": 72.71542358398438,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Nature"
+          },
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "House",
+        "Confidence": 70.5038833618164,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Architecture"
+          },
+          {
+            "Name": "Building"
+          },
+          {
+            "Name": "Housing"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Cabin",
+        "Confidence": 56.64435577392578,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Architecture"
+          },
+          {
+            "Name": "Building"
+          },
+          {
+            "Name": "House"
+          },
+          {
+            "Name": "Housing"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Filename": "photos\\pic18.jpeg",
+    "Labels": [
+      {
+        "Name": "Hoop",
+        "Confidence": 100.0,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Sports"
+          }
+        ]
+      },
+      {
+        "Name": "Machine",
+        "Confidence": 80.66778564453125,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Tools and Machinery"
+          }
+        ]
+      },
+      {
+        "Name": "Wheel",
+        "Confidence": 80.66778564453125,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.2915908396244049,
+              "Height": 0.44150564074516296,
+              "Left": 0.3413081765174866,
+              "Top": 0.3278098404407501
+            },
+            "Confidence": 80.66778564453125
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Machine"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Basketball",
+        "Confidence": 55.23122024536133,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Sport"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Sports"
+          }
+        ]
+      },
+      {
+        "Name": "Sport",
+        "Confidence": 55.23122024536133,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [
+          {
+            "Name": "Sports"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Sports"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Filename": "photos\\pic19.jpeg",
+    "Labels": [
+      {
+        "Name": "Sign",
+        "Confidence": 99.97686767578125,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Symbol"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Symbols and Flags"
+          }
+        ]
+      },
+      {
+        "Name": "Symbol",
+        "Confidence": 99.97686767578125,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Symbols and Flags"
+          }
+        ]
+      },
+      {
+        "Name": "Road Sign",
+        "Confidence": 95.4421615600586,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Sign"
+          },
+          {
+            "Name": "Symbol"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Transport and Logistics"
+          }
+        ]
+      },
+      {
+        "Name": "Handrail",
+        "Confidence": 55.46127700805664,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [
+          {
+            "Name": "Banister"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Home and Indoors"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Filename": "photos\\pic2.jpeg",
+    "Labels": [
+      {
+        "Name": "Photography",
+        "Confidence": 100.0,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [
+          {
+            "Name": "Photo"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Hobbies and Interests"
+          }
+        ]
+      },
+      {
+        "Name": "Electronics",
+        "Confidence": 99.72653198242188,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Technology and Computing"
+          }
+        ]
+      },
+      {
+        "Name": "Phone",
+        "Confidence": 99.72653198242188,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Electronics"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Technology and Computing"
+          }
+        ]
+      },
+      {
+        "Name": "Mobile Phone",
+        "Confidence": 99.71353912353516,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.35579562187194824,
+              "Height": 0.8785801529884338,
+              "Left": 0.2433616667985916,
+              "Top": 0.001654396066442132
+            },
+            "Confidence": 95.79016876220703
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Electronics"
+          },
+          {
+            "Name": "Phone"
+          }
+        ],
+        "Aliases": [
+          {
+            "Name": "Cell Phone"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Technology and Computing"
+          }
+        ]
+      },
+      {
+        "Name": "Baby",
+        "Confidence": 99.21247100830078,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.5778027772903442,
+              "Height": 0.6702563166618347,
+              "Left": 0.0012575277360156178,
+              "Top": 0.3245461583137512
+            },
+            "Confidence": 99.21247100830078
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Person"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Person Description"
+          }
+        ]
+      },
+      {
+        "Name": "Person",
+        "Confidence": 99.21247100830078,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.5778027772903442,
+              "Height": 0.6702563166618347,
+              "Left": 0.0012575277360156178,
+              "Top": 0.3245461583137512
+            },
+            "Confidence": 99.21247100830078
+          }
+        ],
+        "Parents": [],
+        "Aliases": [
+          {
+            "Name": "Human"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Person Description"
+          }
+        ]
+      },
+      {
+        "Name": "Face",
+        "Confidence": 92.31007385253906,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Head"
+          },
+          {
+            "Name": "Person"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Person Description"
+          }
+        ]
+      },
+      {
+        "Name": "Head",
+        "Confidence": 92.31007385253906,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Person"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Person Description"
+          }
+        ]
+      },
+      {
+        "Name": "Portrait",
+        "Confidence": 92.31007385253906,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Face"
+          },
+          {
+            "Name": "Head"
+          },
+          {
+            "Name": "Person"
+          },
+          {
+            "Name": "Photography"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Hobbies and Interests"
+          }
+        ]
+      },
+      {
+        "Name": "Body Part",
+        "Confidence": 82.14029693603516,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Person Description"
+          }
+        ]
+      },
+      {
+        "Name": "Finger",
+        "Confidence": 82.14029693603516,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Body Part"
+          },
+          {
+            "Name": "Hand"
+          },
+          {
+            "Name": "Person"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Person Description"
+          }
+        ]
+      },
+      {
+        "Name": "Hand",
+        "Confidence": 82.14029693603516,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Body Part"
+          },
+          {
+            "Name": "Person"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Person Description"
+          }
+        ]
+      },
+      {
+        "Name": "Camera",
+        "Confidence": 57.4592170715332,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Electronics"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Technology and Computing"
+          }
+        ]
+      },
+      {
+        "Name": "Video Camera",
+        "Confidence": 56.293701171875,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Camera"
+          },
+          {
+            "Name": "Electronics"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Technology and Computing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Filename": "photos\\pic20.jpeg",
+    "Labels": [
+      {
+        "Name": "Landmark",
+        "Confidence": 100.0,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Popular Landmarks"
+          }
+        ]
+      },
+      {
+        "Name": "Hollywood Sign",
+        "Confidence": 93.58843231201172,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Landmark"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Popular Landmarks"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Filename": "photos\\pic3.jpeg",
+    "Labels": [
+      {
+        "Name": "Caravan",
+        "Confidence": 99.9784164428711,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Van"
+          },
+          {
+            "Name": "Vehicle"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Transportation",
+        "Confidence": 99.9784164428711,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Van",
+        "Confidence": 99.9784164428711,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Vehicle"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Vehicle",
+        "Confidence": 99.9784164428711,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Transportation"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Truck",
+        "Confidence": 97.55914306640625,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.15435057878494263,
+              "Height": 0.649047315120697,
+              "Left": 0.0003249867877457291,
+              "Top": 0.0646093338727951
+            },
+            "Confidence": 97.55914306640625
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Vehicle"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Car",
+        "Confidence": 97.43424224853516,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.8686861991882324,
+              "Height": 0.5262275338172913,
+              "Left": 0.06198181211948395,
+              "Top": 0.25253769755363464
+            },
+            "Confidence": 97.43424224853516
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Vehicle"
+          }
+        ],
+        "Aliases": [
+          {
+            "Name": "Automobile"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Bus",
+        "Confidence": 90.78279876708984,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.46514376997947693,
+              "Height": 0.5713235139846802,
+              "Left": 0.5318398475646973,
+              "Top": 0.11276146024465561
+            },
+            "Confidence": 64.67330169677734
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Vehicle"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Minibus",
+        "Confidence": 90.78279876708984,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Bus"
+          },
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Van"
+          },
+          {
+            "Name": "Vehicle"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Machine",
+        "Confidence": 68.23351287841797,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Tools and Machinery"
+          }
+        ]
+      },
+      {
+        "Name": "Wheel",
+        "Confidence": 68.23351287841797,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.06310169398784637,
+              "Height": 0.13635322451591492,
+              "Left": 0.03503188490867615,
+              "Top": 0.5781939029693604
+            },
+            "Confidence": 68.23351287841797
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Machine"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Filename": "photos\\pic4.jpeg",
+    "Labels": [
+      {
+        "Name": "Machine",
+        "Confidence": 99.38322448730469,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Tools and Machinery"
+          }
+        ]
+      },
+      {
+        "Name": "Spoke",
+        "Confidence": 99.38322448730469,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Machine"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Wheel",
+        "Confidence": 98.61809539794922,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.19687379896640778,
+              "Height": 0.1347174197435379,
+              "Left": 0.6050896048545837,
+              "Top": 0.6600676774978638
+            },
+            "Confidence": 98.61809539794922
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.2458178997039795,
+              "Height": 0.43684816360473633,
+              "Left": 0.16307333111763,
+              "Top": 0.484885036945343
+            },
+            "Confidence": 94.54835510253906
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.02629598043859005,
+              "Height": 0.03771079704165459,
+              "Left": 0.9642533659934998,
+              "Top": 0.5276428461074829
+            },
+            "Confidence": 89.33106994628906
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Machine"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Alloy Wheel",
+        "Confidence": 98.15335845947266,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Car"
+          },
+          {
+            "Name": "Car Wheel"
+          },
+          {
+            "Name": "Machine"
+          },
+          {
+            "Name": "Spoke"
+          },
+          {
+            "Name": "Tire"
+          },
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Vehicle"
+          },
+          {
+            "Name": "Wheel"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Car",
+        "Confidence": 98.15335845947266,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.04706398397684097,
+              "Height": 0.08272846043109894,
+              "Left": 0.952823281288147,
+              "Top": 0.4823024570941925
+            },
+            "Confidence": 97.64019012451172
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.9425630569458008,
+              "Height": 0.9183626770973206,
+              "Left": 0.00011789958080044016,
+              "Top": 0.0017970276530832052
+            },
+            "Confidence": 97.36836242675781
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.010912030935287476,
+              "Height": 0.0830213725566864,
+              "Left": 0.9890726208686829,
+              "Top": 0.533674418926239
+            },
+            "Confidence": 85.97917175292969
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Vehicle"
+          }
+        ],
+        "Aliases": [
+          {
+            "Name": "Automobile"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Car Wheel",
+        "Confidence": 98.15335845947266,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Car"
+          },
+          {
+            "Name": "Machine"
+          },
+          {
+            "Name": "Tire"
+          },
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Vehicle"
+          },
+          {
+            "Name": "Wheel"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Tire",
+        "Confidence": 98.15335845947266,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Transportation",
+        "Confidence": 98.15335845947266,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Vehicle",
+        "Confidence": 98.15335845947266,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Transportation"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Headlight",
+        "Confidence": 79.70362091064453,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Vehicle"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Bumper",
+        "Confidence": 57.827728271484375,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Vehicle"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Coupe",
+        "Confidence": 57.21114730834961,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Car"
+          },
+          {
+            "Name": "Sports Car"
+          },
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Vehicle"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Sports Car",
+        "Confidence": 57.21114730834961,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Car"
+          },
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Vehicle"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Filename": "photos\\pic7.jpeg",
+    "Labels": [
+      {
+        "Name": "Person",
+        "Confidence": 96.84857177734375,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.052963487803936005,
+              "Height": 0.33818599581718445,
+              "Left": 0.00012436827819328755,
+              "Top": 0.3075309097766876
+            },
+            "Confidence": 96.84857177734375
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.0382101945579052,
+              "Height": 0.06671842932701111,
+              "Left": 0.6405713558197021,
+              "Top": 0.3433152139186859
+            },
+            "Confidence": 96.62834167480469
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.02568027749657631,
+              "Height": 0.07278262823820114,
+              "Left": 0.5990827679634094,
+              "Top": 0.3329169452190399
+            },
+            "Confidence": 89.85713195800781
+          }
+        ],
+        "Parents": [],
+        "Aliases": [
+          {
+            "Name": "Human"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Person Description"
+          }
+        ]
+      },
+      {
+        "Name": "Food",
+        "Confidence": 82.62003326416016,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Food and Beverage"
+          }
+        ]
+      },
+      {
+        "Name": "Seafood",
+        "Confidence": 82.62003326416016,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Food"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Food and Beverage"
+          }
+        ]
+      },
+      {
+        "Name": "Animal",
+        "Confidence": 62.306636810302734,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Animals and Pets"
+          }
+        ]
+      },
+      {
+        "Name": "Sea Life",
+        "Confidence": 60.73096466064453,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Animal"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Animals and Pets"
+          }
+        ]
+      },
+      {
+        "Name": "Market",
+        "Confidence": 57.60720443725586,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Shop",
+        "Confidence": 56.88545227050781,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Butcher Shop",
+        "Confidence": 55.72658157348633,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Shop"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Crab",
+        "Confidence": 55.49832534790039,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Animal"
+          },
+          {
+            "Name": "Food"
+          },
+          {
+            "Name": "Invertebrate"
+          },
+          {
+            "Name": "Sea Life"
+          },
+          {
+            "Name": "Seafood"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Animals and Pets"
+          }
+        ]
+      },
+      {
+        "Name": "Invertebrate",
+        "Confidence": 55.49832534790039,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Animal"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Animals and Pets"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Filename": "photos\\pic9.jpeg",
+    "Labels": [
+      {
+        "Name": "City",
+        "Confidence": 99.93299102783203,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [
+          {
+            "Name": "Town"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Road",
+        "Confidence": 99.93299102783203,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Transport and Logistics"
+          }
+        ]
+      },
+      {
+        "Name": "Street",
+        "Confidence": 99.93299102783203,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "City"
+          },
+          {
+            "Name": "Road"
+          },
+          {
+            "Name": "Urban"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Urban",
+        "Confidence": 99.93299102783203,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Colors and Visual Composition"
+          }
+        ]
+      },
+      {
+        "Name": "Adult",
+        "Confidence": 98.3812026977539,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.35906901955604553,
+              "Height": 0.7529388666152954,
+              "Left": 0.4972569942474365,
+              "Top": 0.2446499466896057
+            },
+            "Confidence": 98.3812026977539
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Person"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Person Description"
+          }
+        ]
+      },
+      {
+        "Name": "Female",
+        "Confidence": 98.3812026977539,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.35906901955604553,
+              "Height": 0.7529388666152954,
+              "Left": 0.4972569942474365,
+              "Top": 0.2446499466896057
+            },
+            "Confidence": 98.3812026977539
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Person"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Person Description"
+          }
+        ]
+      },
+      {
+        "Name": "Person",
+        "Confidence": 98.3812026977539,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.35906901955604553,
+              "Height": 0.7529388666152954,
+              "Left": 0.4972569942474365,
+              "Top": 0.2446499466896057
+            },
+            "Confidence": 98.3812026977539
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.2051858752965927,
+              "Height": 0.7860487699508667,
+              "Left": 0.44511356949806213,
+              "Top": 0.20847292244434357
+            },
+            "Confidence": 97.89680480957031
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.06723367422819138,
+              "Height": 0.26645809412002563,
+              "Left": 0.16852165758609772,
+              "Top": 0.3639243245124817
+            },
+            "Confidence": 97.04783630371094
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.0529499389231205,
+              "Height": 0.27134495973587036,
+              "Left": 0.21284735202789307,
+              "Top": 0.4030267596244812
+            },
+            "Confidence": 70.8956298828125
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.03526870533823967,
+              "Height": 0.11617828905582428,
+              "Left": 0.09385117888450623,
+              "Top": 0.4923287332057953
+            },
+            "Confidence": 55.18804931640625
+          }
+        ],
+        "Parents": [],
+        "Aliases": [
+          {
+            "Name": "Human"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Person Description"
+          }
+        ]
+      },
+      {
+        "Name": "Woman",
+        "Confidence": 98.3812026977539,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.35906901955604553,
+              "Height": 0.7529388666152954,
+              "Left": 0.4972569942474365,
+              "Top": 0.2446499466896057
+            },
+            "Confidence": 98.3812026977539
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Adult"
+          },
+          {
+            "Name": "Female"
+          },
+          {
+            "Name": "Person"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Person Description"
+          }
+        ]
+      },
+      {
+        "Name": "Backpack",
+        "Confidence": 98.10206604003906,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.10007686167955399,
+              "Height": 0.22446469962596893,
+              "Left": 0.5218254327774048,
+              "Top": 0.36964353919029236
+            },
+            "Confidence": 98.10206604003906
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Bag"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Apparel and Accessories"
+          }
+        ]
+      },
+      {
+        "Name": "Bag",
+        "Confidence": 98.10206604003906,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Apparel and Accessories"
+          }
+        ]
+      },
+      {
+        "Name": "Boy",
+        "Confidence": 97.89680480957031,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.2051858752965927,
+              "Height": 0.7860487699508667,
+              "Left": 0.44511356949806213,
+              "Top": 0.20847292244434357
+            },
+            "Confidence": 97.89680480957031
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Male"
+          },
+          {
+            "Name": "Person"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Person Description"
+          }
+        ]
+      },
+      {
+        "Name": "Child",
+        "Confidence": 97.89680480957031,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.2051858752965927,
+              "Height": 0.7860487699508667,
+              "Left": 0.44511356949806213,
+              "Top": 0.20847292244434357
+            },
+            "Confidence": 97.89680480957031
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Person"
+          }
+        ],
+        "Aliases": [
+          {
+            "Name": "Kid"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Person Description"
+          }
+        ]
+      },
+      {
+        "Name": "Male",
+        "Confidence": 97.89680480957031,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.2051858752965927,
+              "Height": 0.7860487699508667,
+              "Left": 0.44511356949806213,
+              "Top": 0.20847292244434357
+            },
+            "Confidence": 97.89680480957031
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Person"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Person Description"
+          }
+        ]
+      },
+      {
+        "Name": "Motorcycle",
+        "Confidence": 95.89591979980469,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Vehicle"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Transportation",
+        "Confidence": 95.89591979980469,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Vehicle",
+        "Confidence": 95.89591979980469,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Transportation"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Moped",
+        "Confidence": 95.36703491210938,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Motor Scooter"
+          },
+          {
+            "Name": "Motorcycle"
+          },
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Vehicle"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Motor Scooter",
+        "Confidence": 95.36703491210938,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Motorcycle"
+          },
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Vehicle"
+          }
+        ],
+        "Aliases": [
+          {
+            "Name": "Vespa"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Clothing",
+        "Confidence": 93.29913330078125,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [
+          {
+            "Name": "Apparel"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Apparel and Accessories"
+          }
+        ]
+      },
+      {
+        "Name": "Coat",
+        "Confidence": 93.29913330078125,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Clothing"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Apparel and Accessories"
+          }
+        ]
+      },
+      {
+        "Name": "Ball",
+        "Confidence": 93.25663757324219,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Sports"
+          }
+        ]
+      },
+      {
+        "Name": "Baseball",
+        "Confidence": 93.25663757324219,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Sport"
+          }
+        ],
+        "Aliases": [
+          {
+            "Name": "Softball"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Sports"
+          }
+        ]
+      },
+      {
+        "Name": "Baseball (Ball)",
+        "Confidence": 93.25663757324219,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.06870972365140915,
+              "Height": 0.1529231071472168,
+              "Left": 0.5475069284439087,
+              "Top": 0.20809559524059296
+            },
+            "Confidence": 93.25663757324219
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Ball"
+          },
+          {
+            "Name": "Baseball"
+          },
+          {
+            "Name": "Sport"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Sports"
+          }
+        ]
+      },
+      {
+        "Name": "Sport",
+        "Confidence": 93.25663757324219,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [
+          {
+            "Name": "Sports"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Sports"
+          }
+        ]
+      },
+      {
+        "Name": "Bicycle",
+        "Confidence": 81.0550308227539,
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.11006937175989151,
+              "Height": 0.22384676337242126,
+              "Left": 0.6647620797157288,
+              "Top": 0.775027334690094
+            },
+            "Confidence": 81.0550308227539
+          }
+        ],
+        "Parents": [
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Vehicle"
+          }
+        ],
+        "Aliases": [
+          {
+            "Name": "Bike"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Hobbies and Interests"
+          }
+        ]
+      },
+      {
+        "Name": "Scooter",
+        "Confidence": 57.49285888671875,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Vehicle"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Vehicles and Automotive"
+          }
+        ]
+      },
+      {
+        "Name": "Cycling",
+        "Confidence": 56.769596099853516,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Bicycle"
+          },
+          {
+            "Name": "Person"
+          },
+          {
+            "Name": "Sport"
+          },
+          {
+            "Name": "Transportation"
+          },
+          {
+            "Name": "Vehicle"
+          }
+        ],
+        "Aliases": [
+          {
+            "Name": "Cyclist"
+          },
+          {
+            "Name": "Bike Cyclist"
+          }
+        ],
+        "Categories": [
+          {
+            "Name": "Actions"
+          }
+        ]
+      },
+      {
+        "Name": "Architecture",
+        "Confidence": 56.31697082519531,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Building",
+        "Confidence": 56.31697082519531,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Architecture"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Outdoors",
+        "Confidence": 56.31697082519531,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Nature and Outdoors"
+          }
+        ]
+      },
+      {
+        "Name": "Shelter",
+        "Confidence": 56.31697082519531,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Architecture"
+          },
+          {
+            "Name": "Building"
+          },
+          {
+            "Name": "Outdoors"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      },
+      {
+        "Name": "Walking",
+        "Confidence": 56.020606994628906,
+        "Instances": [],
+        "Parents": [
+          {
+            "Name": "Person"
+          }
+        ],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Actions"
+          }
+        ]
+      },
+      {
+        "Name": "Neighborhood",
+        "Confidence": 55.024803161621094,
+        "Instances": [],
+        "Parents": [],
+        "Aliases": [],
+        "Categories": [
+          {
+            "Name": "Buildings and Architecture"
+          }
+        ]
+      }
+    ]
+  }
+]

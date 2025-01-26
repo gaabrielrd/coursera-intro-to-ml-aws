@@ -1,0 +1,963 @@
+{
+	"jobName": "Transcribe-op-coursera-01",
+	"accountId": "746669192443",
+	"status": "COMPLETED",
+	"results": {
+		"transcripts": [
+			{
+				"transcript": "Olá, seja bem-vindo. Você quer aprender mais sobre os serviços da W S É um prazer imenso pra mim te ensinar tudo o que eu sei, meu nome é Rafael e eu trabalho na Amazon Web surce, criando treinamentos como esse aqui que você tá assistindo, esperamos que você esteja curtindo essa jornada de aprendizado usando os serviços de inteligência artificial que a nuvem da Amazon oferece. Você sabia que a Amazon oferece serviços para te ajudar com visão computacional, detecção de defeitos em linhas de montagem, reconhecimento de dados em texto e conteúdo falado, métricas de negócios, setor de saúde, melhoria de código fonte e até mesmo inteligência artificial no ramo industrial? Tudo isso para melhorar a experiência de seus clientes."
+			}
+		],
+		"items": [
+			{
+				"id": 0,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.999", "content": "Olá" }],
+				"start_time": "1.289",
+				"end_time": "1.86"
+			},
+			{
+				"id": 1,
+				"type": "punctuation",
+				"alternatives": [{ "confidence": "0.0", "content": "," }]
+			},
+			{
+				"id": 2,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.999", "content": "seja" }],
+				"start_time": "1.87",
+				"end_time": "2.46"
+			},
+			{
+				"id": 3,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.747", "content": "bem-vindo" }],
+				"start_time": "2.47",
+				"end_time": "3.259"
+			},
+			{
+				"id": 4,
+				"type": "punctuation",
+				"alternatives": [{ "confidence": "0.0", "content": "." }]
+			},
+			{
+				"id": 5,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "Você" }],
+				"start_time": "3.269",
+				"end_time": "3.74"
+			},
+			{
+				"id": 6,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.964", "content": "quer" }],
+				"start_time": "3.75",
+				"end_time": "3.9"
+			},
+			{
+				"id": 7,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "aprender" }],
+				"start_time": "3.91",
+				"end_time": "4.38"
+			},
+			{
+				"id": 8,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "mais" }],
+				"start_time": "4.389",
+				"end_time": "4.699"
+			},
+			{
+				"id": 9,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.999", "content": "sobre" }],
+				"start_time": "4.71",
+				"end_time": "4.94"
+			},
+			{
+				"id": 10,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.992", "content": "os" }],
+				"start_time": "4.949",
+				"end_time": "5.059"
+			},
+			{
+				"id": 11,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.995", "content": "serviços" }],
+				"start_time": "5.07",
+				"end_time": "5.59"
+			},
+			{
+				"id": 12,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.997", "content": "da" }],
+				"start_time": "5.599",
+				"end_time": "5.739"
+			},
+			{
+				"id": 13,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.999", "content": "W" }],
+				"start_time": "5.75",
+				"end_time": "6.46"
+			},
+			{
+				"id": 14,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.989", "content": "S" }],
+				"start_time": "6.469",
+				"end_time": "6.5"
+			},
+			{
+				"id": 15,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.999", "content": "É" }],
+				"start_time": "6.51",
+				"end_time": "6.82"
+			},
+			{
+				"id": 16,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "um" }],
+				"start_time": "6.829",
+				"end_time": "6.94"
+			},
+			{
+				"id": 17,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.996", "content": "prazer" }],
+				"start_time": "6.949",
+				"end_time": "7.349"
+			},
+			{
+				"id": 18,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.994", "content": "imenso" }],
+				"start_time": "7.36",
+				"end_time": "7.94"
+			},
+			{
+				"id": 19,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.995", "content": "pra" }],
+				"start_time": "7.949",
+				"end_time": "8.06"
+			},
+			{
+				"id": 20,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "mim" }],
+				"start_time": "8.069",
+				"end_time": "8.3"
+			},
+			{
+				"id": 21,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.996", "content": "te" }],
+				"start_time": "8.31",
+				"end_time": "8.42"
+			},
+			{
+				"id": 22,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.997", "content": "ensinar" }],
+				"start_time": "8.43",
+				"end_time": "8.899"
+			},
+			{
+				"id": 23,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.999", "content": "tudo" }],
+				"start_time": "8.909",
+				"end_time": "9.159"
+			},
+			{
+				"id": 24,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.322", "content": "o" }],
+				"start_time": "9.17",
+				"end_time": "9.22"
+			},
+			{
+				"id": 25,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "que" }],
+				"start_time": "9.229",
+				"end_time": "9.3"
+			},
+			{
+				"id": 26,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.996", "content": "eu" }],
+				"start_time": "9.31",
+				"end_time": "9.46"
+			},
+			{
+				"id": 27,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.999", "content": "sei" }],
+				"start_time": "9.47",
+				"end_time": "9.859"
+			},
+			{
+				"id": 28,
+				"type": "punctuation",
+				"alternatives": [{ "confidence": "0.0", "content": "," }]
+			},
+			{
+				"id": 29,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "meu" }],
+				"start_time": "9.869",
+				"end_time": "10.25"
+			},
+			{
+				"id": 30,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.999", "content": "nome" }],
+				"start_time": "10.26",
+				"end_time": "10.38"
+			},
+			{
+				"id": 31,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.999", "content": "é" }],
+				"start_time": "10.39",
+				"end_time": "10.42"
+			},
+			{
+				"id": 32,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.987", "content": "Rafael" }],
+				"start_time": "10.43",
+				"end_time": "11.18"
+			},
+			{
+				"id": 33,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.997", "content": "e" }],
+				"start_time": "11.189",
+				"end_time": "11.22"
+			},
+			{
+				"id": 34,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.997", "content": "eu" }],
+				"start_time": "11.229",
+				"end_time": "11.359"
+			},
+			{
+				"id": 35,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.993", "content": "trabalho" }],
+				"start_time": "11.369",
+				"end_time": "11.779"
+			},
+			{
+				"id": 36,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "na" }],
+				"start_time": "11.789",
+				"end_time": "11.859"
+			},
+			{
+				"id": 37,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.996", "content": "Amazon" }],
+				"start_time": "11.869",
+				"end_time": "12.22"
+			},
+			{
+				"id": 38,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.949", "content": "Web" }],
+				"start_time": "12.229",
+				"end_time": "12.42"
+			},
+			{
+				"id": 39,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.066", "content": "surce" }],
+				"start_time": "12.43",
+				"end_time": "12.819"
+			},
+			{
+				"id": 40,
+				"type": "punctuation",
+				"alternatives": [{ "confidence": "0.0", "content": "," }]
+			},
+			{
+				"id": 41,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.997", "content": "criando" }],
+				"start_time": "12.829",
+				"end_time": "13.52"
+			},
+			{
+				"id": 42,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.996", "content": "treinamentos" }],
+				"start_time": "13.529",
+				"end_time": "14.319"
+			},
+			{
+				"id": 43,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.999", "content": "como" }],
+				"start_time": "14.329",
+				"end_time": "14.659"
+			},
+			{
+				"id": 44,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.994", "content": "esse" }],
+				"start_time": "14.67",
+				"end_time": "14.869"
+			},
+			{
+				"id": 45,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.993", "content": "aqui" }],
+				"start_time": "14.88",
+				"end_time": "15.02"
+			},
+			{
+				"id": 46,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.999", "content": "que" }],
+				"start_time": "15.029",
+				"end_time": "15.14"
+			},
+			{
+				"id": 47,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "você" }],
+				"start_time": "15.149",
+				"end_time": "15.34"
+			},
+			{
+				"id": 48,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.993", "content": "tá" }],
+				"start_time": "15.35",
+				"end_time": "15.52"
+			},
+			{
+				"id": 49,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "assistindo" }],
+				"start_time": "15.529",
+				"end_time": "16.459"
+			},
+			{
+				"id": 50,
+				"type": "punctuation",
+				"alternatives": [{ "confidence": "0.0", "content": "," }]
+			},
+			{
+				"id": 51,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.997", "content": "esperamos" }],
+				"start_time": "16.469",
+				"end_time": "17.229"
+			},
+			{
+				"id": 52,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.999", "content": "que" }],
+				"start_time": "17.239",
+				"end_time": "17.309"
+			},
+			{
+				"id": 53,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "você" }],
+				"start_time": "17.319",
+				"end_time": "17.579"
+			},
+			{
+				"id": 54,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "esteja" }],
+				"start_time": "17.59",
+				"end_time": "17.86"
+			},
+			{
+				"id": 55,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "curtindo" }],
+				"start_time": "17.87",
+				"end_time": "18.639"
+			},
+			{
+				"id": 56,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.991", "content": "essa" }],
+				"start_time": "18.649",
+				"end_time": "18.889"
+			},
+			{
+				"id": 57,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.994", "content": "jornada" }],
+				"start_time": "18.899",
+				"end_time": "19.26"
+			},
+			{
+				"id": 58,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "de" }],
+				"start_time": "19.27",
+				"end_time": "19.379"
+			},
+			{
+				"id": 59,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.997", "content": "aprendizado" }],
+				"start_time": "19.389",
+				"end_time": "20.02"
+			},
+			{
+				"id": 60,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.996", "content": "usando" }],
+				"start_time": "20.03",
+				"end_time": "20.739"
+			},
+			{
+				"id": 61,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.961", "content": "os" }],
+				"start_time": "20.75",
+				"end_time": "20.819"
+			},
+			{
+				"id": 62,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.993", "content": "serviços" }],
+				"start_time": "20.829",
+				"end_time": "21.42"
+			},
+			{
+				"id": 63,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "de" }],
+				"start_time": "21.43",
+				"end_time": "21.5"
+			},
+			{
+				"id": 64,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "inteligência" }],
+				"start_time": "21.51",
+				"end_time": "22.1"
+			},
+			{
+				"id": 65,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.996", "content": "artificial" }],
+				"start_time": "22.11",
+				"end_time": "22.979"
+			},
+			{
+				"id": 66,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.999", "content": "que" }],
+				"start_time": "22.989",
+				"end_time": "23.18"
+			},
+			{
+				"id": 67,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.997", "content": "a" }],
+				"start_time": "23.19",
+				"end_time": "23.219"
+			},
+			{
+				"id": 68,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.993", "content": "nuvem" }],
+				"start_time": "23.229",
+				"end_time": "23.54"
+			},
+			{
+				"id": 69,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.997", "content": "da" }],
+				"start_time": "23.549",
+				"end_time": "23.62"
+			},
+			{
+				"id": 70,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.997", "content": "Amazon" }],
+				"start_time": "23.629",
+				"end_time": "24.03"
+			},
+			{
+				"id": 71,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.999", "content": "oferece" }],
+				"start_time": "24.04",
+				"end_time": "24.739"
+			},
+			{
+				"id": 72,
+				"type": "punctuation",
+				"alternatives": [{ "confidence": "0.0", "content": "." }]
+			},
+			{
+				"id": 73,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.988", "content": "Você" }],
+				"start_time": "25.36",
+				"end_time": "25.639"
+			},
+			{
+				"id": 74,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.997", "content": "sabia" }],
+				"start_time": "25.649",
+				"end_time": "26.329"
+			},
+			{
+				"id": 75,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "que" }],
+				"start_time": "26.34",
+				"end_time": "26.489"
+			},
+			{
+				"id": 76,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.997", "content": "a" }],
+				"start_time": "26.5",
+				"end_time": "26.53"
+			},
+			{
+				"id": 77,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.995", "content": "Amazon" }],
+				"start_time": "26.54",
+				"end_time": "26.95"
+			},
+			{
+				"id": 78,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.999", "content": "oferece" }],
+				"start_time": "26.959",
+				"end_time": "27.43"
+			},
+			{
+				"id": 79,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.994", "content": "serviços" }],
+				"start_time": "27.44",
+				"end_time": "27.889"
+			},
+			{
+				"id": 80,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.784", "content": "para" }],
+				"start_time": "27.899",
+				"end_time": "28.049"
+			},
+			{
+				"id": 81,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.997", "content": "te" }],
+				"start_time": "28.059",
+				"end_time": "28.129"
+			},
+			{
+				"id": 82,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.999", "content": "ajudar" }],
+				"start_time": "28.139",
+				"end_time": "28.77"
+			},
+			{
+				"id": 83,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.991", "content": "com" }],
+				"start_time": "28.78",
+				"end_time": "29.01"
+			},
+			{
+				"id": 84,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.997", "content": "visão" }],
+				"start_time": "29.02",
+				"end_time": "29.45"
+			},
+			{
+				"id": 85,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.997", "content": "computacional" }],
+				"start_time": "29.459",
+				"end_time": "30.409"
+			},
+			{
+				"id": 86,
+				"type": "punctuation",
+				"alternatives": [{ "confidence": "0.0", "content": "," }]
+			},
+			{
+				"id": 87,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.997", "content": "detecção" }],
+				"start_time": "30.42",
+				"end_time": "31.049"
+			},
+			{
+				"id": 88,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.999", "content": "de" }],
+				"start_time": "31.059",
+				"end_time": "31.129"
+			},
+			{
+				"id": 89,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.991", "content": "defeitos" }],
+				"start_time": "31.139",
+				"end_time": "31.729"
+			},
+			{
+				"id": 90,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.997", "content": "em" }],
+				"start_time": "31.739",
+				"end_time": "31.84"
+			},
+			{
+				"id": 91,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.996", "content": "linhas" }],
+				"start_time": "31.85",
+				"end_time": "32.13"
+			},
+			{
+				"id": 92,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "de" }],
+				"start_time": "32.139",
+				"end_time": "32.169"
+			},
+			{
+				"id": 93,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.995", "content": "montagem" }],
+				"start_time": "32.18",
+				"end_time": "32.939"
+			},
+			{
+				"id": 94,
+				"type": "punctuation",
+				"alternatives": [{ "confidence": "0.0", "content": "," }]
+			},
+			{
+				"id": 95,
+				"type": "pronunciation",
+				"alternatives": [
+					{ "confidence": "0.991", "content": "reconhecimento" }
+				],
+				"start_time": "32.95",
+				"end_time": "33.889"
+			},
+			{
+				"id": 96,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.995", "content": "de" }],
+				"start_time": "33.9",
+				"end_time": "34.049"
+			},
+			{
+				"id": 97,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "dados" }],
+				"start_time": "34.06",
+				"end_time": "34.61"
+			},
+			{
+				"id": 98,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.98", "content": "em" }],
+				"start_time": "34.619",
+				"end_time": "34.77"
+			},
+			{
+				"id": 99,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "texto" }],
+				"start_time": "34.779",
+				"end_time": "35.33"
+			},
+			{
+				"id": 100,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.997", "content": "e" }],
+				"start_time": "35.34",
+				"end_time": "35.369"
+			},
+			{
+				"id": 101,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.992", "content": "conteúdo" }],
+				"start_time": "35.38",
+				"end_time": "35.93"
+			},
+			{
+				"id": 102,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.996", "content": "falado" }],
+				"start_time": "35.939",
+				"end_time": "36.65"
+			},
+			{
+				"id": 103,
+				"type": "punctuation",
+				"alternatives": [{ "confidence": "0.0", "content": "," }]
+			},
+			{
+				"id": 104,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.927", "content": "métricas" }],
+				"start_time": "36.659",
+				"end_time": "37.25"
+			},
+			{
+				"id": 105,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "de" }],
+				"start_time": "37.259",
+				"end_time": "37.33"
+			},
+			{
+				"id": 106,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.992", "content": "negócios" }],
+				"start_time": "37.34",
+				"end_time": "38.13"
+			},
+			{
+				"id": 107,
+				"type": "punctuation",
+				"alternatives": [{ "confidence": "0.0", "content": "," }]
+			},
+			{
+				"id": 108,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.996", "content": "setor" }],
+				"start_time": "38.139",
+				"end_time": "38.569"
+			},
+			{
+				"id": 109,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.993", "content": "de" }],
+				"start_time": "38.58",
+				"end_time": "38.689"
+			},
+			{
+				"id": 110,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.999", "content": "saúde" }],
+				"start_time": "38.7",
+				"end_time": "39.349"
+			},
+			{
+				"id": 111,
+				"type": "punctuation",
+				"alternatives": [{ "confidence": "0.0", "content": "," }]
+			},
+			{
+				"id": 112,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.985", "content": "melhoria" }],
+				"start_time": "39.36",
+				"end_time": "39.97"
+			},
+			{
+				"id": 113,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.911", "content": "de" }],
+				"start_time": "39.979",
+				"end_time": "40.049"
+			},
+			{
+				"id": 114,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.999", "content": "código" }],
+				"start_time": "40.06",
+				"end_time": "40.45"
+			},
+			{
+				"id": 115,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.989", "content": "fonte" }],
+				"start_time": "40.459",
+				"end_time": "40.889"
+			},
+			{
+				"id": 116,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.985", "content": "e" }],
+				"start_time": "40.9",
+				"end_time": "40.909"
+			},
+			{
+				"id": 117,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "até" }],
+				"start_time": "40.919",
+				"end_time": "41.529"
+			},
+			{
+				"id": 118,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.992", "content": "mesmo" }],
+				"start_time": "41.54",
+				"end_time": "41.84"
+			},
+			{
+				"id": 119,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "inteligência" }],
+				"start_time": "41.849",
+				"end_time": "42.409"
+			},
+			{
+				"id": 120,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.995", "content": "artificial" }],
+				"start_time": "42.419",
+				"end_time": "43.009"
+			},
+			{
+				"id": 121,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.993", "content": "no" }],
+				"start_time": "43.02",
+				"end_time": "43.169"
+			},
+			{
+				"id": 122,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "ramo" }],
+				"start_time": "43.18",
+				"end_time": "43.4"
+			},
+			{
+				"id": 123,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.986", "content": "industrial" }],
+				"start_time": "43.409",
+				"end_time": "44.43"
+			},
+			{
+				"id": 124,
+				"type": "punctuation",
+				"alternatives": [{ "confidence": "0.0", "content": "?" }]
+			},
+			{
+				"id": 125,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.997", "content": "Tudo" }],
+				"start_time": "44.439",
+				"end_time": "44.869"
+			},
+			{
+				"id": 126,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.989", "content": "isso" }],
+				"start_time": "44.88",
+				"end_time": "45.369"
+			},
+			{
+				"id": 127,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.81", "content": "para" }],
+				"start_time": "45.38",
+				"end_time": "45.529"
+			},
+			{
+				"id": 128,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.998", "content": "melhorar" }],
+				"start_time": "45.54",
+				"end_time": "46.4"
+			},
+			{
+				"id": 129,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.993", "content": "a" }],
+				"start_time": "46.409",
+				"end_time": "46.49"
+			},
+			{
+				"id": 130,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.996", "content": "experiência" }],
+				"start_time": "46.5",
+				"end_time": "47.13"
+			},
+			{
+				"id": 131,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.968", "content": "de" }],
+				"start_time": "47.139",
+				"end_time": "47.209"
+			},
+			{
+				"id": 132,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.993", "content": "seus" }],
+				"start_time": "47.22",
+				"end_time": "47.47"
+			},
+			{
+				"id": 133,
+				"type": "pronunciation",
+				"alternatives": [{ "confidence": "0.995", "content": "clientes" }],
+				"start_time": "47.479",
+				"end_time": "48.189"
+			},
+			{
+				"id": 134,
+				"type": "punctuation",
+				"alternatives": [{ "confidence": "0.0", "content": "." }]
+			}
+		],
+		"audio_segments": [
+			{
+				"id": 0,
+				"transcript": "Olá, seja bem-vindo. Você quer aprender mais sobre os serviços da W S É um prazer imenso pra mim te ensinar tudo o que eu sei, meu nome é Rafael e eu trabalho na Amazon Web surce, criando treinamentos como esse aqui que você tá assistindo, esperamos que você esteja curtindo essa jornada de aprendizado usando os serviços de inteligência artificial que a nuvem da Amazon oferece.",
+				"start_time": "1.279",
+				"end_time": "24.77",
+				"items": [
+					0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+					20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36,
+					37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53,
+					54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70,
+					71, 72
+				]
+			},
+			{
+				"id": 1,
+				"transcript": "Você sabia que a Amazon oferece serviços para te ajudar com visão computacional, detecção de defeitos em linhas de montagem, reconhecimento de dados em texto e conteúdo falado, métricas de negócios, setor de saúde, melhoria de código fonte e até mesmo inteligência artificial no ramo industrial? Tudo isso para melhorar a experiência de seus clientes.",
+				"start_time": "25.35",
+				"end_time": "48.22",
+				"items": [
+					73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89,
+					90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105,
+					106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119,
+					120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133,
+					134
+				]
+			}
+		]
+	}
+}
